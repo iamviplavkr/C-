@@ -13,9 +13,9 @@ class Program
             int b = a * 2;
             Console.WriteLine(b);
         }
-        catch(OverflowException)
+        catch(exception e)
         {
-            Console.WriteLine("Out Of Bounds ");
+            Console.WriteLine($"Error : {e.message}");
 
         }
     }
