@@ -21,13 +21,7 @@ class Program
             if(result > -1)
             {
                 Console.WriteLine($"The total is : {result}");
-            }
-            else
-            {
-                Console.WriteLine("Cannot add up the total sum ");
-
-            }
-               
+            }      
         }
         static int SumOfNumbers(int[] numbers)
         {
